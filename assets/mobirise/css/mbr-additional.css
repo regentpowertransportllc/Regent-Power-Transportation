@@ -1116,48 +1116,59 @@ section.lazy-placeholder:after {
 .cid-rU7bRLcVzp H2 {
   color: #ffffff;
 }
-.cid-rU7f7QaseY {
+.cid-rUniYLhauK {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #05113d;
+}
+.cid-rUni3RKZUq {
   padding-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 90px;
+  background-color: #05113d;
+}
+.cid-rUni3RKZUq .card-img {
+  background-color: #fff;
+}
+.cid-rUni3RKZUq .card-box {
+  padding: 2rem;
   background-color: #ffffff;
 }
-.cid-rU7f7QaseY .mbr-section-subtitle {
+.cid-rUni3RKZUq h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rUni3RKZUq p {
+  text-align: left;
+}
+.cid-rUni3RKZUq .mbr-text {
   color: #767676;
-  font-weight: 300;
 }
-.cid-rU7f7QaseY .mbr-content-text {
-  color: #767676;
+.cid-rUni3RKZUq .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
 }
-.cid-rU7f7QaseY .card {
-  word-wrap: break-word;
-  flex-shrink: 0;
-  -webkit-flex-shrink: 0;
+.cid-rUni3RKZUq .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
 }
-.cid-rU7f7QaseY .cards-container {
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: center;
-  justify-content: center;
-  word-break: break-word;
-}
-@media (max-width: 767px) {
-  .cid-rU7f7QaseY .card:not(.last-child) {
-    padding-bottom: 1.5rem;
+@media (min-width: 992px) {
+  .cid-rUni3RKZUq .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+    -webkit-flex: 0 0 20%;
   }
 }
-.cid-rU7f7QaseY .img-text {
+.cid-rUni3RKZUq .card-title {
+  text-align: center;
   color: #05113d;
-}
-.cid-rU7f7QaseY .mbr-section-title {
-  color: #ab0000;
 }
 .cid-rU7h29EgQ5 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #ab0000;
+  background-color: #e51414;
 }
 .cid-rU7h29EgQ5 .line {
   background-color: #ffffff;
@@ -1177,66 +1188,60 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
-.cid-rU7cFtjl8S {
-  padding-top: 30px;
-  padding-bottom: 0px;
+.cid-rUmRPuUUaC {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #ffffff;
 }
-.cid-rU7cFtjl8S .mbr-section-subtitle {
-  color: #767676;
+.cid-rUmRPuUUaC .carousel-item {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
-.cid-rU7cFtjl8S .media-container-row {
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+.cid-rUmRPuUUaC .carousel-item.active,
+.cid-rUmRPuUUaC .carousel-item-next,
+.cid-rUmRPuUUaC .carousel-item-prev {
+  display: flex;
 }
-.cid-rU7cFtjl8S .mbr-text {
-  color: #05113d;
+.cid-rUmRPuUUaC .carousel-controls a {
+  transition: opacity .5s;
+  font-size: 2rem;
 }
-.cid-rU7cFtjl8S .mbr-author-desc {
-  display: block;
-  color: #767676;
+.cid-rUmRPuUUaC .carousel-controls a span {
+  position: absolute;
+  top: 180px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #585858;
+  background: #c8c6c6;
+  opacity: .5;
 }
-.cid-rU7cFtjl8S .mbr-author-name {
-  color: #ab0000;
+.cid-rUmRPuUUaC .carousel-controls a:hover span {
+  opacity: 1;
 }
-.cid-rU7cFtjl8S .mbr-testimonial .panel-item {
-  background-color: #ffffff;
-}
-.cid-rU7cFtjl8S .mbr-testimonial .card-block {
-  -webkit-flex-grow: 0;
-  flex-grow: 0;
-  padding: 2.4rem 2.4rem 0 2.4rem;
-}
-.cid-rU7cFtjl8S .mbr-testimonial .card-block .testimonial-photo {
-  display: inline-block;
-  width: 120px;
-  height: 120px;
+.cid-rUmRPuUUaC .user_image {
+  width: 200px;
+  height: 200px;
   margin-bottom: 1.6rem;
   overflow: hidden;
   border-radius: 50%;
+  margin: 0 auto 2rem auto;
 }
-.cid-rU7cFtjl8S .mbr-testimonial .card-block .testimonial-photo img {
+.cid-rUmRPuUUaC .user_image img {
   width: 100%;
   min-width: 100%;
   min-height: 100%;
 }
-.cid-rU7cFtjl8S .mbr-testimonial .card-footer {
-  padding-bottom: 2.4rem;
-  border-top: 0;
-  padding-top: 1rem;
-  word-wrap: break-word;
-  word-break: break-word;
-  background: none;
-}
-@media (max-width: 300px) {
-  .cid-rU7cFtjl8S .testimonial-photo {
-    width: 100% !important;
-    height: auto !important;
+@media (max-width: 230px) {
+  .cid-rUmRPuUUaC .user_image {
+    width: 100%;
+    height: auto;
   }
 }
-.cid-rU7cFtjl8S H2 {
-  color: #ab0000;
+.cid-rUmRPuUUaC H2 {
+  color: #e51414;
+}
+.cid-rUmRPuUUaC .user_name {
+  color: #05113d;
 }
 .cid-qTkAaeaxX5 {
   padding-top: 60px;
