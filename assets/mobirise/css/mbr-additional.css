@@ -1121,49 +1121,16 @@ section.lazy-placeholder:after {
   padding-bottom: 0px;
   background-color: #05113d;
 }
-.cid-rUni3RKZUq {
-  padding-top: 0px;
-  padding-bottom: 90px;
+.cid-rUniYLhauK H2 {
+  text-align: center;
+}
+.cid-rUnNWbJZH4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #05113d;
 }
-.cid-rUni3RKZUq .card-img {
-  background-color: #fff;
-}
-.cid-rUni3RKZUq .card-box {
-  padding: 2rem;
-  background-color: #ffffff;
-}
-.cid-rUni3RKZUq h4 {
-  font-weight: 500;
-  margin-bottom: 0;
+.cid-rUnNWbJZH4 H2 {
   text-align: left;
-}
-.cid-rUni3RKZUq p {
-  text-align: left;
-}
-.cid-rUni3RKZUq .mbr-text {
-  color: #767676;
-}
-.cid-rUni3RKZUq .card-wrapper {
-  height: 100%;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s;
-}
-.cid-rUni3RKZUq .card-wrapper:hover {
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s;
-}
-@media (min-width: 992px) {
-  .cid-rUni3RKZUq .my-col {
-    flex: 0 0 20%;
-    max-width: 20%;
-    padding: 15px;
-    -webkit-flex: 0 0 20%;
-  }
-}
-.cid-rUni3RKZUq .card-title {
-  text-align: center;
-  color: #05113d;
 }
 .cid-rU7h29EgQ5 {
   padding-top: 30px;
