@@ -7,7 +7,7 @@
 <meta property="og:url" content="https://form.jotform.com/200976095253156" >
 <meta property="og:description" content="Please click the link to complete this form.">
 <meta name="slack-app-id" content="AHNMASS8M">
-<link rel="shortcut icon" href="https://cdn.jotfor.ms/favicon.ico">
+<link rel="shortcut icon" href="assets/images/rpt-weblogo-1.png">
 <link rel="canonical" href="https://form.jotform.com/200976095253156" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
 <meta name="HandheldFriendly" content="true" />
@@ -254,8 +254,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center top;
-  background-attachment: fixed;
-  background-size: auto;
+  background-size: cover;
 }
 .supernova {
   background-image: none;
@@ -714,6 +713,14 @@ li[data-type="control_image"] img {
 /* | */
 
 /*__INSPECT_SEPERATOR__*/
+.supernova {
+    height : 1000px;
+    background-attachment : fixed;
+    background-position : top;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
 
     /* Injected CSS Code */
 </style>
@@ -822,7 +829,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"fullName1","qid":"1","text":"Full N
               <span class="form-sub-label-container " style="vertical-align:top">
                 <input type="text" class="form-textbox validate[Numeric]" id="input_12_donation" name="q12_invoiceAmount[price]" value="" data-component="paymentDonation" />
                 USD
-                <label class="form-sub-label" for="input_12_donation" style="min-height:13px" aria-hidden="false"> Description </label>
+                <label class="form-sub-label" for="input_12_donation" style="min-height:13px" aria-hidden="false"> Amount as it appears on your Invoice </label>
               </span>
               <hr/>
             </div>
@@ -1306,6 +1313,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"fullName1","qid":"1","text":"Full N
   </script>
   <div class="formFooter-heightMask">
   </div>
+>
 </form></body>
 </html>
 <script type="text/javascript">JotForm.ownerView=true;</script>
